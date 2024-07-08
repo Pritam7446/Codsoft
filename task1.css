@@ -1,0 +1,149 @@
+body{
+    font-family:Arial,sans-serif;
+    margin:0;
+    padding:0;
+}
+header{
+    background-color:#333;
+    color:white;
+    padding:20px 0;
+    text-align:center;
+}
+.headercontent{
+    margin-bottom:10px;
+}
+.headercontent h1{
+    margin:0;
+    font-size:2em;
+}
+.headercontent p{
+    margin:5px 0 0;
+}
+nav ul{
+    list-style:none;
+    padding:0;
+    margin:10px 0 0;
+}
+nav ul li{
+    display:inline;
+    margin:0 95px;
+}
+nav ul li a{
+    color:white;
+    text-decoration:none;
+}
+section{
+    padding:25px;
+}
+#home{
+    background-color:darksalmon;
+    text-align:center;
+    font-size:large;
+}
+#about{
+    display:flex;
+    align-items:center;
+    justify-content:column;
+    flex-direction:column;
+    background-color:darkkhaki;
+}
+.aboutcontent{
+    display:flex;
+    align-items:center;
+    text-align:center;
+    
+}
+.aboutcontent img{
+    border-radius:50%;
+    margin-right:25px;
+    max-width:125px;
+    height:auto;
+    
+}
+.aboutcontent p{
+    max-width:600px;
+    padding-left:100px;
+}
+#skills{
+    background-color:darksalmon;
+    text-align:center;
+    overflow-x:auto;
+    white-space:nowrap;
+}
+.skillslist{
+    display:flex;
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+.skillslist li{
+    display:inline-block;
+    background-color:blue;
+    color:white;
+    padding:15px 25px;
+    margin:5px;
+    border-radius:5px;
+    white-space:nowrap;
+}
+#projects{
+    background-color:darkkhaki;
+    text-align:center;
+    overflow-x:auto;
+    white-space:nowrap;
+}
+.projectcontainer{
+    display:center;
+}
+.projectitem{
+    margin:20px 0;
+    padding:20px;
+    background:blue;
+    color:white;
+    box-shadow:0 4px 8px rgba(0,0,0,1);
+    border-radius:10px;
+    text-align:left;
+    max-width:300px;
+    display:inline-block;
+    white-space:normal;
+    
+}
+.projectitem h3{
+     margin-top:0;
+}
+#resume{
+    background-color:darksalmon;
+    text-align:center;
+}
+#resume a{
+    color:#333;
+    text-decoration:none;
+    font-weight:bold;
+}
+#resume a:hover{
+    text-decoration:underline;
+}
+#contact{
+    background-color:darkkhaki;
+    text-align:center;
+    padding:25px;
+}
+#contact a{
+    color:#333;
+    text-decoration:none;
+}
+#contact a:hover{
+    text-decoration:underline;
+}
+footer{
+    background-color:#333;
+    color:white;
+    text-align:center;
+    padding:10px 0;
+    position:relative;
+    width:100%;
+    bottom:0;
+}
+
+
+
+
