@@ -1,0 +1,125 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    font-family:Arial,sans-serif;
+    line-height:1.6;
+    background:#f4f4f4;
+}
+header{
+    background:deepskyblue;
+    color:#fff;
+    padding:10px 0;
+    text-align:center;
+}
+nav ul{
+    list-style:none;
+}
+nav ul li{
+    display:inline;
+    margin:0 25px;
+}
+nav ul li a{
+    color:#fff;
+    text-decoration:none;
+    font-size:1.1em;
+}
+.home{
+    height:145vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:#fff;
+    text-align:center;
+}
+.homecontent{
+    background:rgba(0,0,0,0.5);
+    text-align:center;
+    padding:45px;
+}
+.homeimage{
+    max-width:80%;
+    height:auto;
+    margin-bottom:25px;
+}
+.ctabutton{
+    display:inline-block;
+    padding:10px 20px;
+    margin-top:25px;
+    background:#5cb85c;
+    color:#fff;
+    text-decoration:none;
+    border-radius:5px;
+}
+.ctabutton:hover{
+    background:#4cae4c;
+}
+.aboutcontent{
+    background:#fff;
+    text-align:center;
+    border-top:4px solid blue;
+    box-shadow:0 2px 5px rgba(0,0,0,0.1);
+}
+.programscontent{
+    background:#fff;
+    text-align:center;
+    border-top:4px solid green;
+    box-shadow:0 2px 5px rgba(0,0,0,0.1);
+}
+.admissionscontent{
+    background:#fff;
+    text-align:center;
+    border-top:4px solid #d9534f;
+    box-shadow:0 2px 5px rgba(0,0,0,0.1);
+}
+.contactcontent{
+    background:#f4f4f4;
+    text-align:center;
+    border-top:4px solid blue;
+    box-shadow:0 2px 5px rgba(0,0,0,0.1);
+}
+.tablecontent{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:25px;
+    margin-bottom:45px;
+}
+table{
+    width:80%;
+    margin-top:25px;
+    border-collapse:collapse;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+table th,table td{
+    padding:15px;
+    border:1px solid #ddd;
+    justify-content:center;
+    text-align:center;
+}
+table th{
+    background:#f4f4f4;
+    font-weight:bold;
+}
+table tr:nth-child(even){
+    background:#f9f9f9;
+}
+footer{
+    background:deepskyblue;
+    color:#fff;
+    text-align:center;
+    padding:15px 0;
+    width:100%;
+}
+
+
+
+
+
+
+
+
+
+
